@@ -1,0 +1,494 @@
+
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color: black;
+    background-color: white;
+}
+nav {
+display: flex;
+justify-content: space-between;
+font-weight: bolder;
+
+
+}
+#home,a {
+    padding-right: 65px;
+    text-decoration: none;
+    font-size: large;
+    padding-top: 6px;
+}
+#log {
+    padding-left: 100px;
+    text-decoration: none;
+    font-size:25px ;
+}
+#logo a:hover {
+    color: rgb(167, 167, 167);
+}
+#home a:hover {
+    text-decoration: underline;
+}
+@media screen and (max-width:900px) {
+    body {
+        #log {
+            padding-left: 100px;
+            text-decoration: none;
+            font-size:20px ;
+            }
+            #home,a {
+                padding-right: 65px;
+                text-decoration: none;
+                font-size: small;
+                padding-top: 6px;
+            }
+        }
+}
+@media screen and (max-width:745px) {
+    body {
+        #log {
+            padding-left: 100px;
+            text-decoration: none;
+            font-size:14px ;
+            }
+            #home,a {
+                padding-right: 50px;
+                text-decoration: none;
+                font-size: x-small;
+                padding-top: 6px;
+
+            }
+            #home {
+                padding-right: 10px;
+            }
+        }
+    }
+@media screen and (max-width:580px) {
+        body {
+            #log {
+                padding-left: 70px;
+                text-decoration: none;
+                font-size:12px ;
+                }
+                #home,a {
+                    padding-right: 35px;
+                    text-decoration: none;
+                    font-size: x-small;
+                    padding-top: 6px;
+    
+                }
+                #home {
+                    padding-right: 10px;
+                }
+            }
+        }
+@media screen and (max-width:470px) {
+            body {
+                #log {
+                    padding-left: 40px;
+                    text-decoration: none;
+                    font-size:10px ;
+                    }
+                    #home,a {
+                        padding-right: 25px;
+                        text-decoration: none;
+                        font-size: xx-small;
+                        padding-top: 6px;
+        
+                    }
+                    #home {
+                        padding-right: 10px;
+                    }
+                }
+            }
+ @media screen and (max-width:360px) {
+                body {
+                    #log {
+                        padding-left: 25px;
+                        text-decoration: none;
+                        font-size:8px ;
+                        }
+                        #home,a {
+                            padding-right: 18px;
+                            text-decoration: none;
+                            font-size: xx-small;
+                            padding-top: 6px;
+            
+                        }
+                        #home {
+                            padding-right: 10px;
+                        }
+                    }
+                }
+hr {
+    border: 0.1px solid rgb(46, 46, 46);
+}
+
+#hi {
+    font-weight: bolder;
+    font-size: 60px;
+    padding-left: 100px;
+    padding-top: 130px;
+}
+span {
+    color: rgb(0, 140, 255);
+}
+#contact {
+    background-color: #008cff;
+    height: 50px;
+    width: 155px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-left: 100px;
+}
+#contact:hover {
+    background-color: rgb(194, 193, 193);
+    color: black;
+    transition: all 0.2s ease-out;
+}
+#img {
+    height: 350px;
+    width: 350px;
+    border-radius: 130px;
+    position: absolute;
+    right: 150px;
+    top: 210px;
+}
+#str {
+    height: 1300px;
+    width: 0px;
+    border: 3px solid  #A594F9;
+}
+#pr {
+    border: 3px solid  #A594F9;
+    width: 25%;
+    position: absolute;
+    top: 300px;
+    left: 370px;
+}
+#oj {
+    border: 3px solid  #A594F9;
+    width: 25%;
+    position: absolute;
+    top: 600px; ;
+    right: 370px;
+
+}
+#ect {
+    border: 3px solid  #A594F9;
+    width: 25%;
+    position: absolute;
+    top: 900px; ;
+    left: 370px;
+}
+#pro {
+    font-size: 70px;
+    text-align: center;
+    color: #ae62ff;
+}
+#pro:hover {
+    color: #cd9fff ;
+}
+#none {
+    border: 3px solid  #A594F9;
+    width: 25%;
+    position: absolute;
+    top: 1200px; ;
+    right: 370px;
+}
+#first {
+    position: absolute;
+    top: 200px; ;
+    left: 40px;
+    height: 200px;
+    transition: all 0.2s ease-in;
+}
+#first:hover {
+    height: 250px;
+}
+#second {
+    position: absolute;
+    top: 500px; ;
+    right: 40px;
+    height: 200px;
+    transition: all 0.2s ease-in;
+}
+#second:hover {
+    height: 250px;
+}
+#third {
+    position: absolute;
+    top: 800px; ;
+    left: 40px;
+    height: 200px;
+    transition: all 0.2s ease-in;
+
+}
+#third:hover {
+    height: 250px;
+}
+#fourth {
+    position: absolute;  
+    top: 1100px; ;
+    right: 40px;
+    height: 200px;  
+    transition: all 0.2s ease-in;
+}
+#fourth:hover {
+    height: 250px;
+}
+#fir {
+    position: absolute;
+    top: 300px;
+    left: 740px;
+    height: 10px;
+    border: 5px solid black;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+#fir:hover {
+    height: 15px;
+    left: 738px;
+    top: 298px;
+}
+#sec {
+    position: absolute;
+    top: 600px; ;
+    right: 740px;
+    transition: all 0.2s ease-in;
+    height: 10px;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+#sec:hover {
+    height: 15px;
+    right: 738px;
+    top: 598px;
+}
+#th {
+    position: absolute;
+    top: 900px; 
+    left: 740px;
+    transition: all 0.2s ease-in;
+    height: 10px;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+#th:hover {
+    height: 15px;
+    left: 738px;
+    top: 898px;
+}
+#fo {
+    position: absolute;
+    top: 1200px; 
+    right: 740px;
+    transition: all 0.2s ease-in;
+    height: 10px;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+#fo:hover {
+    height: 15px;
+    right: 738px;
+    top: 1198px;
+}
+/* Global styles remain unchanged */
+
+/* Large desktops (up to 1220px) */
+@media screen and (max-width: 1220px) {
+    #img {
+        height: 200px;
+        width: 200px;
+        border-radius: 70px;
+        right: 150px;
+        top: 200px;
+    }
+    #hi {
+        font-size: 40px;
+    }
+}
+
+/* Tablets (up to 930px) */
+@media screen and (max-width: 930px) {
+    #img {
+        height: 170px;
+        width: 170px;
+        border-radius: 50px;
+        right: 120px;
+        top: 170px;
+    }
+    #hi {
+        font-size: 30px;
+        padding-top: 100px;
+    }
+    #contact {
+        height: 35px;
+        width: 130px;
+        font-size: 15px;
+    }
+}
+
+/* Smaller tablets (up to 745px) */
+@media screen and (max-width: 745px) {
+    #img {
+        height: 120px;
+        width: 120px;
+        border-radius: 50px;
+        right: 100px;
+    }
+    #hi {
+        font-size: 25px;
+        padding-left: 50px;
+    }
+    #contact {
+        height: 30px;
+        width: 120px;
+        font-size: 12px;
+        margin-left: 50px;
+    }
+    /* Adjust the navigation */
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Large phones (up to 580px) */
+@media screen and (max-width: 580px) {
+    #img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+        right: 80px;
+    }
+    #hi {
+        font-size: 20px;
+        padding-left: 30px;
+    }
+    #contact {
+        height: 25px;
+        width: 100px;
+        font-size: 10px;
+    }
+}
+
+/* Small phones (up to 470px) */
+@media screen and (max-width: 470px) {
+    #img {
+        height: 70px;
+        width: 70px;
+        right: 50px;
+        top: 160px;
+    }
+    #hi {
+        font-size: 15px;
+        padding-left: 20px;
+        position: absolute;
+        top: 50px;
+    }
+    #contact {
+        height: 20px;
+        width: 80px;
+        font-size: 9px;
+        margin-left: 20px;
+        position: absolute;
+        top: 230px;
+    }
+    #log {
+        font-size: 20px;
+    }
+}
+
+/* Very small phones (up to 360px) */
+@media screen and (max-width: 360px) {
+    #img {
+        height: 50px;
+        width: 50px;
+        right: 30px;
+    }
+    #hi {
+        font-size: 12px;
+    }
+    #contact {
+        height: 15px;
+        width: 70px;
+        font-size: 8px;
+        margin-left: 10px;
+    }
+}
+/* Basic Nav Styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 0px;
+}
+
+/* Styling the hamburger icon */
+#menu-icon {
+    display: none; /* Hide initially */
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+/* Links Styling */
+#home a {
+    padding-right: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: large;
+}
+
+
+/* Media query for smaller screens (Hamburger menu) */
+@media screen and (max-width: 745px) {
+    #home {
+        display: none; /* Hide the links initially */
+        flex-direction: column;
+        background-color: #ffffff;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0px;
+        text-align: center;
+    }
+
+    /* Show menu icon */
+    #menu-icon {
+        display: inline-block;
+        position: absolute;
+        height: 2px;
+        width: 2px;
+        top: 10px;
+        right: 60px;
+    }
+
+    /* Show the links when active */
+    nav.active #home {
+        display: flex;
+    }
+
+    #home a {
+        padding: 10px;
+        font-size: medium;
+        width: 100%;
+        border-top: 1px solid rgb(255, 255, 255);
+        background-color: black;
+        color: white;
+    }
+    #log {
+        position: absolute;
+        left: 30px;
+        margin-bottom: 90px;
+    }
+}
